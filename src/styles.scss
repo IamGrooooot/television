@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --background-color: #ece8f9;
+  --active-color: #F2994A;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fr {
+  flex-direction: row;
+}
+
+.fc {
+  flex-direction: column;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.f2 {
+  flex: 2;
+}
+
+.f3 {
+  flex: 3;
+}
+
+.margin-lr-1 {
+  margin: 0 1rem;
+}
+
+.margin-b-1 {
+  margin-bottom: 1rem;
+}

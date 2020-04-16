@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "name": "La Casa de Papel",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "romance"
+    ],
+    "season": 4,
+    "networks": [
+      "Netflix"
+    ],
+    "date": "2017-05-05T00:00:00+0100"
+  },
+  {
+    "id": 2,
+    "name": "Game of Thrones",
+    "genres": [
+      "action",
+      "crime",
+      "mystery",
+      "thriller"
+    ],
+    "season": 8,
+    "networks": [
+      "HBO"
+    ],
+    "date": "2011-04-17T00:00:00+0100"
+  },
+  {
+    "id": 3,
+    "name": "The Mandalorian",
+    "genres": [
+      "action",
+      "adventure",
+      "sci_fi"
+    ],
+    "season": 1,
+    "networks": [
+      "Disney"
+    ],
+    "date": "2019-11-12T00:00:00+0100"
+  },
+  {
+    "id": 4,
+    "name": "Vikings",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "history",
+      "romance",
+      "war"
+    ],
+    "season": 6,
+    "networks": [
+      "History"
+    ],
+    "date": "2013-03-03T00:00:00+0100"
+  },
+  {
+    "id": 5,
+    "name": "Killing Eve",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "thriller"
+    ],
+    "season": 3,
+    "networks": [
+      "AMC",
+      "BBC"
+    ],
+    "date": "2018-04-08T00:00:00+0100"
+  },
+  {
+    "id": 6,
+    "name": "Star Trek: Picard",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "sci_fi"
+    ],
+    "season": 1,
+    "networks": [
+      "CBC"
+    ],
+    "date": "2020-04-13T00:00:00+0100"
+  },
+  {
+    "id": 7,
+    "name": "The Witcher",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "horror",
+      "mystery"
+    ],
+    "season": 1,
+    "networks": [
+      "Netflix"
+    ],
+    "date": "2019-12-20T00:00:00+0100"
+  },
+  {
+    "id": 8,
+    "name": "The Flash",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "horror",
+      "mystery"
+    ],
+    "season": 7,
+    "networks": [
+      "The CW",
+      "TV Plus"
+    ],
+    "date": "2014-10-07T00:00:00+0100"
+  },
+  {
+    "id": 9,
+    "name": "Prison Break",
+    "genres": [
+      "action",
+      "crime",
+      "drama",
+      "mystery",
+      "thriller"
+    ],
+    "season": 5,
+    "networks": [
+      "FOX"
+    ],
+    "date": "2005-08-29T00:00:00+0100"
+  },
+  {
+    "id": 10,
+    "name": "Future Man",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "sci_fi"
+    ],
+    "season": 3,
+    "networks": [
+      "Hulu"
+    ],
+    "date": "2017-11-14T00:00:00+0100"
+  },
+  {
+    "id": 11,
+    "name": "Altered Carbon",
+    "genres": [
+      "action",
+      "drama",
+      "sci_fi",
+      "thriller"
+    ],
+    "season": 2,
+    "networks": [
+      "Netflix"
+    ],
+    "date": "2018-02-02T00:00:00+0100"
+  },
+  {
+    "id": 12,
+    "name": "The Boys",
+    "genres": [
+      "action",
+      "comedy",
+      "crime",
+      "sci_fi"
+    ],
+    "season": 1,
+    "networks": [
+      "Amazon"
+    ],
+    "date": "2019-07-26T00:00:00+0100"
+  },
+  {
+    "id": 13,
+    "name": "Chicago P.D.",
+    "genres": [
+      "action",
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "season": 7,
+    "networks": [
+      "NBC"
+    ],
+    "date": "2014-01-08T00:00:00+0100"
+  },
+  {
+    "id": 14,
+    "name": "Arrow",
+    "genres": [
+      "action",
+      "adventure",
+      "crime",
+      "drama",
+      "mystery",
+      "sci_fi"
+    ],
+    "season": 8,
+    "networks": [
+      "The CW"
+    ],
+    "date": "2012-10-10T00:00:00+0100"
+  },
+  {
+    "id": 15,
+    "name": "The Last Kingdom",
+    "genres": [
+      "action",
+      "drama",
+      "history"
+    ],
+    "season": 3,
+    "networks": [
+      "BBC America"
+    ],
+    "date": "2015-10-10T00:00:00+0100"
+  },
+  {
+    "id": 16,
+    "name": "Band of Brothers",
+    "genres": [
+      "action",
+      "drama",
+      "history",
+      "war"
+    ],
+    "season": 1,
+    "networks": [
+      "DreamWorks",
+      "HBO"
+    ],
+    "date": "2001-09-09T00:00:00+0100"
+  },
+  {
+    "id": 17,
+    "name": "Kingdom",
+    "genres": [
+      "action",
+      "drama",
+      "horror",
+      "thriller"
+    ],
+    "season": 2,
+    "networks": [
+      "AStory"
+    ],
+    "date": "2019-01-25T00:00:00+0100"
+  },
+  {
+    "id": 18,
+    "name": "Designated Survivor",
+    "genres": [
+      "action",
+      "drama",
+      "mystery",
+      "thriller"
+    ],
+    "season": 3,
+    "networks": [
+      "ABC",
+      "Netflix"
+    ],
+    "date": "2016-09-21T00:00:00+0100"
+  },
+  {
+    "id": 19,
+    "name": "The Letter for the King",
+    "genres": [
+      "action",
+      "adventure",
+      "family",
+      "fantasy"
+    ],
+    "season": 1,
+    "networks": [
+      "Netflix"
+    ],
+    "date": "2020-03-20T00:00:00+0100"
+  },
+  {
+    "id": 20,
+    "name": "Happy!",
+    "genres": [
+      "action",
+      "comedy",
+      "crime",
+      "fantasy",
+      "mystery",
+      "thriller"
+    ],
+    "season": 2,
+    "networks": [
+      "Syfy"
+    ],
+    "date": "2020-03-20T00:00:00+0100"
+  },
+  {
+    "id": 21,
+    "name": "Gotham",
+    "genres": [
+      "action",
+      "crime",
+      "drama",
+      "mystery",
+      "sci_fi",
+      "thriller"
+    ],
+    "season": 5,
+    "networks": [
+      "Fox"
+    ],
+    "date": "2014-04-22T00:00:00+0100"
+  },
+  {
+    "id": 22,
+    "name": "The Umbrella Academy",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "drama",
+      "fantasy",
+      "sci_fi"
+    ],
+    "season": 1,
+    "networks": [
+      "Netflix"
+    ],
+    "date": "2019-02-15T00:00:00+0100"
+  }
+]

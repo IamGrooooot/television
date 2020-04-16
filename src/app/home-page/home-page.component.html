@@ -1,0 +1,57 @@
+<div
+  *ngIf="tvShows$ | async as tvShows; else loading"
+  class="posts f fc"
+>
+
+  <div class="form-control f margin-b-1">
+
+    <form [formGroup]="form" class="f">
+      <input class="f3" type="text" placeholder="Name" formControlName="name">
+
+      <select class="f2 margin-lr-1" formControlName="genre">
+        <option value="all">Genre</option>
+        <option *ngFor="let genre of genres" [value]="genre.id">{{ genre.fullName }}</option>
+      </select>
+
+      <select class="f2" formControlName="year">
+        <option value="all">Premiere Year</option>
+        <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+      </select>
+    </form>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th (click)="selectSort(0, $event)" [class.active]="pagination.sortBy === 0">Name</th>
+        <th (click)="selectSort(1, $event)" [class.active]="pagination.sortBy === 1">Season</th>
+        <th (click)="selectSort(2, $event)" [class.active]="pagination.sortBy === 2">Network</th>
+        <th (click)="selectSort(3, $event)" [class.active]="pagination.sortBy === 3">Primiere</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let tvShow of tvShows | searchTVShows:filter:pagination">
+        <td>{{ tvShow.name }}<br>
+          <span
+            *ngFor="let genre of tvShow.genres; let idx = index"
+            [ngStyle]="{'backgroundColor': getColor(genre)}"
+            (click)="selectGenre(genre, $event)"
+            class="genre"
+          >
+            {{ genre }} <br *ngIf="((idx + 1) / 4) === 1">
+          </span>
+        </td>
+        <td>{{ tvShow.season }}</td>
+        <td>{{ tvShow.networks | space }}</td>
+        <td>{{ tvShow.date | date:'dd.MM.yyyy' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <app-pagination [pagination]="pagination" (pageChange)="onPageChange($event)"></app-pagination>
+
+</div>
+
+<ng-template #loading>
+  <p class="text-center">Loading TV Shows...</p>
+</ng-template>

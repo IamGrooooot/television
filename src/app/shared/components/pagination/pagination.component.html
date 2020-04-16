@@ -1,0 +1,32 @@
+<div class="pagination-content f fr">
+  <ul class="f1"></ul>
+
+  <ul class="pagination f fr f3">
+    <li (click)="selectPage(currentPage - 1, $event)" [class.disabled]="currentPage == 1">
+      <a href="#" title="Go to previous page">&lsaquo;</a>
+    </li>
+    <li class="disabled" (click)="cancelEvent($event)" *ngIf="(currentPage - range) > 1">
+      <a href="#">...</a>
+    </li>
+    <li *ngFor="let page of pages | async">
+      <a href="#" (click)="selectPage(page, $event)" [class.active]="page == currentPage">
+        {{page}}
+      </a>
+    </li>
+    <li class="disabled" (click)="cancelEvent($event)" *ngIf="(currentPage + range) < totalPages">
+      <a href="#">...</a>
+    </li>
+    <li (click)="selectPage(currentPage + 1, $event)" [class.disabled]="currentPage == totalPages">
+      <a href="#" title="Go to next page">&rsaquo;</a>
+    </li>
+  </ul>
+
+  <ul class="limit f f1 fr">
+    <li><a href="#" (click)="selectLimit(5, $event)" [class.active]="limit == 5">5</a></li>
+    <li><a href="#" (click)="selectLimit(10, $event)" [class.active]="limit == 10">10</a></li>
+    <li><a href="#" (click)="selectLimit(25, $event)" [class.active]="limit == 25">25</a></li>
+  </ul>
+</div>
+
+
+
